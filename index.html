@@ -10,6 +10,11 @@
     <meta property="og:image" content="/images/OG_photo.jpg">
     <link rel="icon" type="image/x-icon" href="/images/fav.png">
     <title>yellowkitchen</title>
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;400;700;800&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 <body>
     <header>
@@ -17,30 +22,32 @@
             <img src="/images/Logo.svg" alt="logo_yellowkitchen">
         </div>
         <nav>
-            <div>
-                <a href="/somedoc.html">
-                    <img src="/images/Log_in_icon.svg" alt="log_in">
-                    <span>Log in</span>
-                </a>
-            </div>
-            <div>
-                <a href="/somedoc.html">
-                    <img src="/images/Basket_icon.svg" alt="basket">
-                    <span>0</span>
-                </a>
-            </div>
-            <div>
-                <img src="/images/Menu_icon3.png" alt="burger_icon">
-            </div>
+            <ul>
+                <li>
+                    <a href="/somedoc.html">
+                        <img src="/images/Log_in_icon.svg" alt="log_in">
+                        <span>Log in</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/somedoc.html">
+                        <img src="/images/Basket_icon.svg" alt="basket">
+                        <span>0</span>
+                    </a>
+                </li>
+                <li>
+                    <img src="/images/Menu_icon3.png" alt="burger_icon">
+                </li>
+            </ul>
         </nav>
 
     </header>
     <main>
-        <section>
+        <section class="first_sec">
             <img src="/images/Section_1_bg.jpg" alt="salad_image">
             <h1>Your Food court at home</h1>
-            <button type="button">Delivery Order in</button>
-            <button type="button">Takeout Grab and go</button>
+            <button class="delivery_btn" type="button">Delivery <span>Order in</span></button>
+            <button class="takeout_btn" type="button">Takeout <span>Grab and go</span></button>
             <div>
                 <div>
                     <img src="images/time-eat.png" alt="clock">
@@ -56,7 +63,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="restaurants_sec">
             <div>
                 <h2>Restaurants</h2>
                 <button type="button">show all</button>
@@ -81,8 +88,10 @@
                 </div>
                 <img src="/images/Right_arrow.png" alt="">
             </div>
+        </section>
+        <section class="nearest_restaurants_sec">
             <div>
-                <h3>Your nearest restaurants</h3>
+                <h2>Your nearest restaurants</h2>
                 <p>Each kitchen works with its own delivery area to deliver food to you as soon as possible</p>
                 <form action="" method="get">
                     <label>
@@ -92,12 +101,12 @@
                 </form>
             </div>
         </section>
-        <section>
+        <section class="specialities_sec">
             <div>
                 <h2>Specialities</h2>
                 <button type="button">show all</button>
             </div>
-            <div>
+            <div class="food_types_div">
                 <img src="images/Left_arrow.png" alt="">
                 <article>
                     <img src="images/bagel.png" alt="Bagel">
@@ -133,7 +142,7 @@
                 </article>
                 <img src="images/Right_arrow.png" alt="">
             </div>
-            <div>
+            <div class="usp_div">
                 <img src="images/specialities_bg.jpg" alt="">
                 <article>
                     <p>1</p>
@@ -157,13 +166,13 @@
                 </article>
             </div>
         </section>
-        <section>
+        <section class="map">
             <div>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.669472096791!2d2.3794531000000005!3d48.86451290000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66df00dad7fa5%3A0x21166e6e53a916d9!2zNjkgQXYuIGRlIGxhIFLDqXB1YmxpcXVlLCA3NTAxMSBQYXJpcywg0KTRgNCw0L3RhtGW0Y8!5e0!3m2!1suk!2sua!4v1697403161268!5m2!1suk!2sua" width="1280" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
-        <section>
-            <h2>#YellowKitchens in instagram</h2>
+        <section class="insta_sec">
+            <h2>#YellowKitchens <span>in instagram</span></h2>
             <div>
                 <img src="images/insta_1.jpg" alt="cooking">
                 <img src="images/insta_2.jpg" alt="cooking_together">
@@ -184,7 +193,7 @@
             <a href="https://twitter.com/"><img src="images/twitter_icon.svg" alt="twitter_icon.svg"></a>
             <a href="https://www.facebook.com/"><img src="images/facebook_icon.svg" alt="facebook_icon.svg"></a>
         </div>
-        <div>
+        <nav>
             <h4>About us</h4>
             <ul>
                 <li><a href="/somedoc.html">Concept</a></li>
@@ -193,8 +202,8 @@
                 <li><a href="/somedoc.html">Restaurant signup</a></li>
                 <li><a href="/somedoc.html">For Investors</a></li>
             </ul>
-        </div>
-        <div>
+        </nav>
+        <nav>
             <h4>Get help</h4>
             <ul>
                 <li><a href="/somedoc.html">Read FAQs</a></li>
@@ -209,8 +218,8 @@
                     </select>
                 </label></li>
             </ul>
-        </div>
-        <div>
+        </nav>
+        <div class="contact_us_div">
             <h4>Contact us</h4>
             <ul>
                 <li>Yellow kitchen Paris 11</li>
@@ -219,7 +228,7 @@
                 <li><a href="mailto:contact@yellowkitchens.com">contact@yellowkitchens.com</a></li>
             </ul>
         </div>
-        <div>
+        <div class="footer_bottom_info">
             <a href="">Privacy Policy</a>
             <a href="">Terms</a>
             <p>© 2020 Yellow kitchen</p>

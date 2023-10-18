@@ -1,0 +1,139 @@
+@font-face {
+    font-family: "Open Sans Condensed";
+    src: url("../fonts/OpenSans_Condensed-Bold.ttf");
+  }
+body {
+    font-family: Martel Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;   
+    color: #3f4255;
+}
+h1 {
+    font-family: Poppins;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 64px;
+    letter-spacing: 2.9px;
+}
+h2 {
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 64px;
+    letter-spacing: 2.88px;
+}
+header span {
+    color: #9093A6;
+}
+.first_sec button {
+    text-align: center;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: #3F4255;
+    font-family: Martel Sans;
+}
+.first_sec button span {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.first_sec p {
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+.restaurants_sec button,
+.specialities_sec button {
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: #9093A6;
+    font-family: Martel Sans;
+}
+.nearest_restaurants_sec p {
+    line-height: 24px; 
+    letter-spacing: 0.5px;
+}
+.nearest_restaurants_sec input[type="text"]::placeholder {
+    line-height: 24px; 
+    letter-spacing: 0.5px;
+    color: #9093A6;
+    font-family: Martel Sans;
+}
+.nearest_restaurants_sec input[type="submit"] {
+    font-family: Martel Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    color: #B79C10;
+}
+.specialities_sec .food_types_div p {
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #313030;
+}
+.usp_div article p:first-child {
+    color: #3F4255;
+    font-family: Open Sans Condensed;
+    font-size: 58px;
+    line-height: 64px;
+    letter-spacing: 2.9px;
+}
+.usp_div article p:last-child {
+    color: #3F4255;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+.insta_sec h2 {
+    color: #313030;
+}
+.insta_sec h2 span {
+    color: #9093A6;
+}
+footer h4 {
+    /* color: #FFF; */
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+footer nav a {
+    color: #D4D7E5;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+footer nav select {
+    color: #D4D7E5;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+.contact_us_div li {
+    /* color: #FFF; */
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+.contact_us_div a {
+    color: #D4D7E5;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+}
+.footer_bottom_info a,
+.footer_bottom_info p {
+    /* color: #FFF; */
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 16px;
+}
