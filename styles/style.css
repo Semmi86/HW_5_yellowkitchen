@@ -151,8 +151,7 @@ footer nav select {
     line-height: 20px;
     letter-spacing: 0.5px;
 }
-.footer_bottom_info a,
-.footer_bottom_info p {
+.footer_bottom_info a {
     color: #FFF;
     font-size: 12px;
     font-weight: 800;
@@ -426,6 +425,7 @@ select {
     justify-content: space-between;
     padding: 74px 0 48px 0;
     align-items: center;
+    position: relative;
 
 }
 .footer_bottom img {
@@ -433,4 +433,9 @@ select {
 }
 .footer_bottom_info a {
     margin-right: 55px;
+}
+.footer_bottom p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
