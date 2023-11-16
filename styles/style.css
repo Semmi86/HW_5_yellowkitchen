@@ -48,9 +48,17 @@ header span {
     border-radius: 4px;
     height: 72px;
     background: #fff;
-    margin-right: 25px;
+    margin-right: 16px;
     margin-top: 88px;
-    }
+}
+.first_sec button:hover {
+    color: #fff;
+    background: #FFE145;
+}
+.first_sec button:hover span {
+    color: #fff;
+    background: #FFE145;
+}
 .first_sec button span {
     font-size: 12px;
     font-weight: 400;
